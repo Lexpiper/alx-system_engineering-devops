@@ -1,2 +1,3 @@
 #!/bin/bash
-pwd
+#command to see current directory
+echo "pwd"
