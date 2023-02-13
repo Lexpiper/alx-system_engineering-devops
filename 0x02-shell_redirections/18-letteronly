@@ -1,2 +1,2 @@
-#!/bio/bash
-grep "^[a-zA-Z]" /etc/passwd
+#!/bin/bash
+grep ^ [[:alpha:]] /etc/passwd
