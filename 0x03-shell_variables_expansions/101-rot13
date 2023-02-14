@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'a-zA-Z' 'n-za-mN-ZA-M' < example.txt > encoded.txt
+tr 'a-zA-Z' 'n-za-mN-ZA-M' < plain.txt > encoded.txt
