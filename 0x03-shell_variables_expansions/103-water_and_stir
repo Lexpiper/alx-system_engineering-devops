@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "The sum of WATER ($WATER) and STIR ($STIR) is $(echo "$WATER" | base water -d + $(echo "$STIR" | base stir -d) | base bestchol) in base bestchol."
+
