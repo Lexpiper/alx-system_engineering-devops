@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | grep -v '^ *[0-9]* *$' | grep -E '^[0-9]* *[02468] *[^\n]*$' | cut -f2-
+paste -d, - - | cut -d, -f1
